@@ -1,0 +1,237 @@
+body {
+  background-color: #FFC369;
+  width: 3764px;
+  height: 1024px;
+}
+
+.g3 {
+  position: absolute;
+  width: 817px;
+  height: 1050px;
+  left: 2327px;
+  top: -20px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658717/MHMHM_dyom0l.png);
+}
+
+.bird3 {
+  position: absolute;
+  width: 410px;
+  height: 348px;
+  left: 1543px;
+  top: 43px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658796/unnamed_dpg1c6.png);
+  background-size: cover;
+  
+}
+
+.flower4 {
+  position: absolute;
+  width: 1590.28px;
+  height: 1667.66px;
+  left: 1654.83px;
+  top: -1290.13px;
+  z-index: -5 ;
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658791/pd51-1-04-jj_ug3gt1.png);
+  transform: rotate(74.87deg);
+}
+
+.cloud4 {
+  position: absolute;
+  width: 636px;
+  height: 500px;
+  left: 1838px;
+  top: 12px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588663458/giphy_1_ptmywf.gif);
+}
+
+.flower5 {
+  position: absolute;
+  width: 817px;
+  height: 1063px;
+  left: 2120px;
+  top: -26px;
+  z-index: -5;
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658791/pd51-1-04-jj_ug3gt1.png);
+}
+.pool {
+  position: absolute;
+  width: 857px;
+  height: 643px;
+  left: 1651px;
+  top: 381px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658768/1-1_uskiep.png);
+  z-index: -3;
+}
+
+
+.g2 {
+  position: absolute;
+  width: 1460px;
+  height: 1230px;
+  left: 932px;
+  top: -200px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588780687/a01c2187b9f4fe1ba2f46ce9cb5f745b_copy_kzwppg.png);
+  background-size: cover;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.ground {
+  position: absolute;
+  width: 1560px;
+  height: 626px;
+  left: -17px;
+  top: 400px;
+  z-index: -2;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588779825/22542104902_4749171118_b_aihuha.png);
+  background-size: cover;
+}
+
+.building {
+  position: absolute;
+  width: 535px;
+  height: 539px;
+  left: 552px;
+  top: 400px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658724/Screen_Shot_2020-04-30_at_5.40.28_PM_copy_ggpmft.png);
+  z-index: -3;
+  background-size: cover;
+}
+
+.eyes {
+  position: relative;
+  width: 675px;
+  height: 414px;
+  left: -17px;
+  top: -23px;
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658759/EYES_pvd8s3.png);
+  background-size: cover;
+  animation: shake 1.0s;
+  animation-iteration-count: infinite;
+}
+
+.flower1 {
+  position: absolute;
+  width: 887.9px;
+  height: 1023.38px;
+  left: -332.86px;
+  top: -207.41px;
+  z-index: -1;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658802/pd51-1-01-jj_d20ep2.png);
+  transform: rotate(16.38deg);
+}
+
+.tiger {
+  position: absolute;
+  width: 589px;
+  height: 440px;
+  left: 636px;
+  top: 512px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658751/unnamed_2_oobkuq.png);
+    background-size: cover;
+}
+
+.g1 {
+  position: absolute;
+  width: 765px;
+  height: 953px;
+  left: -63px;
+  top: 72px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658721/6bc68f3c576ad10328e78b2e24e932bb_cc4d3y.png);
+  background-size: cover;
+}
+
+.g1:hover {
+  animation: shake 1.0s;
+  animation-iteration-count: infinite;
+}
+
+.g2:hover {
+  animation: shake 1.0s;
+  animation-iteration-count: infinite;
+}
+
+.g3:hover {
+  animation: shake 1.0s;
+  animation-iteration-count: infinite;
+}
+
+.smoke {
+  position: absolute;
+  width: 396px;
+  height: 311px;
+  left: 20px;
+  top: 501px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588663458/giphy_1_ptmywf.gif);
+  background-size: cover;
+}
+
+.flower2 {
+  position: absolute;
+  width: 1400px;
+  height: 1400px;
+  left: 235px;
+  top: -469px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658802/pd51-1-05-jj_dtukk3.png);
+  z-index: -5;
+}
+
+.flower3 {
+  position: absolute;
+  width: 851px;
+  height: 951px;
+  left: 911px;
+  top: -20px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658802/pd51-1-05-jj_dtukk3.png);
+  z-index: -5;
+}
+.building2 {
+  position: absolute;
+  width: 668px;
+  height: 496px;
+  left: 960px;
+  top: 320px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658728/Screen_Shot_2020-04-30_at_5.41.04_PM_copy_evbbcy.png);
+  z-index: -3;
+}
+
+.bird1 {
+  position: absolute;
+  width: 624px;
+  height: 567px;
+  left: 619px;
+  top: -76px;
+
+  background: url(https://res.cloudinary.com/amaarahrahman/image/upload/v1588658796/39-396634_columbidae-bird-squab-pigeons-and-doves-feather-white_uqu62w.png);
+  background-size: cover;
+  animation: shake 1.0s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+
